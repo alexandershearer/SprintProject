@@ -1,0 +1,13 @@
+.container{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+  }
+  .container li{
+    flex-basis:33.33%;
+  }
+  @media screen and (min-width:700px){
+    .container{
+      flex-wrap:nowrap;
+    }
+  }
